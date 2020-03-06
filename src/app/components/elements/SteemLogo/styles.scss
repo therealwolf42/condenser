@@ -1,0 +1,52 @@
+.logo {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+    cursor: pointer;
+    &__icon {
+      height:25px;
+      width: 25px;
+      margin-right:8px;
+      fill: $color-teal;
+    }
+
+    &__text {
+      font-size:1.8rem;
+      font-weight:700;
+    }
+
+    &__textSmall {
+      font-size: 1.8rem;
+      font-weight:300;
+    }
+
+    
+    transition: all 0.3s ease-in-out;
+    .logo__steemit{
+        fill: $color-teal;
+        transition: 0.25s all ease-in-out;
+    }
+    // Fixes #2639 - Don't apply hover styles on devices that do not support it.
+    @media (hover: hover) {
+        &:hover, &:active {
+            .logo__steemit{
+                @include themify($themes) {
+                    fill: themed('colorAccentReverse');
+                }
+            }
+        }
+    }
+}
+
+.theme-dark {
+  .logo {
+    &__icon {
+      fill: white;
+    }
+
+    &__text,
+    &__textSmall {
+      color: white;
+    }
+  }
+}
