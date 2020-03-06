@@ -54,6 +54,6 @@ export function makeCanonicalLink(post, metadata) {
             scheme = Apps[app] ? Apps[app].url_scheme : null;
         }
     }
-    if (!scheme) scheme = Apps['steemtown'].url_scheme;
+    if (!scheme) scheme = "https://steem.town/{category}/@{username}/{permlink}";
     return build_scheme(scheme, post);
 }
