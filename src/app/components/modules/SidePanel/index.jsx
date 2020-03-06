@@ -54,17 +54,6 @@ const SidePanel = ({
 
     const sidePanelLinks = {
         internal: [
-<<<<<<< HEAD
-            {
-                label: tt('navigation.welcome'),
-                link: `/welcome`,
-            },
-            {
-                label: tt('navigation.faq'),
-                link: `/faq.html`,
-            },
-=======
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
             /*
             {
                 label: tt('navigation.explore'),
@@ -80,17 +69,6 @@ const SidePanel = ({
 
         wallet: [
             {
-<<<<<<< HEAD
-                label: tt('navigation.stolen_account_recovery'),
-                link: `${walletUrl}/recover_account_step_1`,
-            },
-            {
-                label: tt('navigation.change_account_password'),
-                link: `${walletUrl}/change_password`,
-            },
-            {
-=======
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 label: tt('navigation.vote_for_witnesses'),
                 link: `${walletUrl}/~witnesses`,
             },
@@ -98,8 +76,6 @@ const SidePanel = ({
                 label: tt('navigation.steem_proposals'),
                 link: `${walletUrl}/proposals`,
             },
-<<<<<<< HEAD
-=======
             {
                 label: tt('navigation.stolen_account_recovery'),
                 link: `${walletUrl}/recover_account_step_1`,
@@ -108,7 +84,6 @@ const SidePanel = ({
                 label: tt('navigation.change_account_password'),
                 link: `${walletUrl}/change_password`,
             },
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         ],
 
         external: [
@@ -118,26 +93,6 @@ const SidePanel = ({
                 link: 'https://steem.chat/home',
             },
             */
-<<<<<<< HEAD
-            {
-                label: tt('navigation.advertise'),
-                link: 'https://selfserve.steemit.com',
-            },
-            {
-                label: tt('navigation.jobs'),
-                link:
-                    'https://recruiting.paylocity.com/recruiting/jobs/List/3288/Steemit-Inc',
-            },
-            /*
-            {
-                label: tt('navigation.app_center'),
-                link: 'https://steemprojects.com/',
-            },
-            {
-                label: tt('navigation.business_center'),
-                link: 'https://steemeconomy.com/',
-            },*/
-=======
             /* {
                 label: tt('navigation.advertise'),
                 link: 'https://selfserve.steemit.com',
@@ -158,7 +113,6 @@ const SidePanel = ({
                 label: tt('navigation.steem_engine'),
                 link: 'https://steemengine.com/',
             },
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         ],
 
         organizational: [
@@ -180,11 +134,7 @@ const SidePanel = ({
             },
         ],
 
-<<<<<<< HEAD
-        legal: [
-=======
         /* legal: [
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
             {
                 label: tt('navigation.privacy_policy'),
                 link: '/privacy.html',
@@ -193,11 +143,7 @@ const SidePanel = ({
                 label: tt('navigation.terms_of_service'),
                 link: '/tos.html',
             },
-<<<<<<< HEAD
-        ],
-=======
         ], */
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 
         extras: [
             {
@@ -206,11 +152,7 @@ const SidePanel = ({
             },
             {
                 label: tt('g.sign_up'),
-<<<<<<< HEAD
-                link: 'https://signup.steemit.com',
-=======
                 link: 'https://www.blocktrades.us/create-steem-account',
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
             },
         ],
     };
@@ -219,28 +161,10 @@ const SidePanel = ({
         <div className="SidePanel">
             <div className={(visible ? 'visible ' : '') + alignment}>
                 <CloseButton onClick={hideSidePanel} />
-<<<<<<< HEAD
-                <ul className={`vertical menu ${loggedIn}`}>
-                    {sidePanelLinks.extras.map(makeLink)}
-                </ul>
-=======
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 <ul className="vertical menu">
                     {sidePanelLinks.internal.map(makeLink)}
                 </ul>
                 <ul className="vertical menu">
-<<<<<<< HEAD
-                    {sidePanelLinks.wallet.map(makeLink)}
-                </ul>
-                <ul className="vertical menu">
-                    {sidePanelLinks.external.map(makeLink)}
-                </ul>
-                <ul className="vertical menu">
-                    {sidePanelLinks.organizational.map(makeLink)}
-                </ul>
-                <ul className="vertical menu">
-                    {sidePanelLinks.legal.map(makeLink)}
-=======
                     {sidePanelLinks.external.map(makeLink)}
                 </ul>
                 <ul className={`vertical menu ${loggedIn}`}>
@@ -251,7 +175,6 @@ const SidePanel = ({
                 </ul>
                 <ul className="vertical menu">
                     {sidePanelLinks.organizational.map(makeLink)}
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 </ul>
             </div>
         </div>

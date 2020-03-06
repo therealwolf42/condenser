@@ -25,14 +25,8 @@ form.search-input {
         color: transparent;
         cursor: pointer;
         font-family: $font-primary;
-<<<<<<< HEAD
-        @include themify($themes) {
-            border: 1px solid rgba(202, 202, 202, 0.6);
-        }
-=======
         border: 1px solid rgba(202, 202, 202, 0.6);
         
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         &::placeholder {
             color: transparent
         }
@@ -45,11 +39,7 @@ form.search-input {
                 border: themed('moduleBackgroundColor');
             }
             border-color: $color-teal;
-<<<<<<< HEAD
-            box-shadow: 0 0 5px rgba(109,207,246,.5);
-=======
             // box-shadow: 0 0 5px rgba(109,207,246,.5);
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
             padding-left: 2.5rem;
             @include themify($themes) {
                 color: themed('textColorPrimary');
@@ -59,11 +49,7 @@ form.search-input {
             &::placeholder {
                 color: $color-blue-dark;
                 @include themify($themes) {
-<<<<<<< HEAD
-                    color: themed('textColorSecondary');
-=======
                     // color: themed('textColorSecondary');
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 }
             }
         }
@@ -91,11 +77,7 @@ form.search-input--expanded {
 
     &:hover {
         svg.search-input__icon {
-<<<<<<< HEAD
-            stroke: $color-white;
-=======
             // stroke: $color-white;
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         }
     }
 
@@ -110,18 +92,6 @@ form.search-input--expanded {
         color: transparent;
         font-family: $font-primary;
         width: 100%;
-<<<<<<< HEAD
-        border-color: $color-teal;
-        box-shadow: 0 0 5px rgba(109,207,246,.5);
-        padding-left: 2.5rem;
-        cursor: auto;
-        @include themify($themes) {
-            border: 1px solid rgba(202, 202, 202, 0.6);
-        }
-        @include themify($themes) {
-            border: themed('moduleBackgroundColor');
-        }
-=======
         
         border-color: $color-teal;
         // box-shadow: 0 0 5px rgba(109,207,246,.5);
@@ -130,18 +100,12 @@ form.search-input--expanded {
         border: 1px solid rgba(202, 202, 202, 0.6);
         
 
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         @include themify($themes) {
             color: themed('textColorPrimary');
         }
         &:hover {
-<<<<<<< HEAD
-            background-color: $color-teal;
-            color: $color-white;
-=======
             // background-color: $color-teal;
             // color: $color-white;
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         }
         &::placeholder {
             @include themify($themes) {
@@ -149,11 +113,7 @@ form.search-input--expanded {
             }
         }
         &:hover::placeholder {
-<<<<<<< HEAD
-            color: $color-text-white;
-=======
             // color: $color-text-white;
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         }
     }
 

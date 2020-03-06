@@ -71,11 +71,7 @@
         "mute": "Mute",
         "my_blog": "My blog",
         "my_comments": "My comments",
-<<<<<<< HEAD
-        "my_feed": "My feed",
-=======
         "my_feed": "Feed",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         "my_replies": "Replies to me",
         "my_wallet": "My wallet",
         "new": "New",
@@ -148,11 +144,7 @@
         "to": " to ",
         "topics": "Topics",
         "toggle_nightmode": "Night Mode",
-<<<<<<< HEAD
-        "all_tags": "All posts",
-=======
         "all_tags": "All Posts",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         "all_tags_mobile": "All posts",
         "transfer": "Transfer ",
         "trending_topics": "Trending Topics",
@@ -268,11 +260,7 @@
         "read_only_mode":
             "Due to server maintenance we are running in read only mode. We are sorry for the inconvenience.",
         "tags_and_topics": "Tags",
-<<<<<<< HEAD
-        "show_more_topics": "Explore communities",
-=======
         "show_more_topics": "Explore Communities",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         "basic": "Basic",
         "advanced": "Advanced",
         "views": {
@@ -312,12 +300,9 @@
         "learn_more": "Learn more",
         "welcome": "Welcome",
         "faq": "FAQ",
-<<<<<<< HEAD
-=======
         "blockexplorer": "Blockexplorer",
         "what_is_steem": "What is Steem?",
         "steem_engine": "Steem Engine",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         "chat": "Steem Chat",
         "app_center": "Apps Built on Steem",
         "business_center": "Businesses Accepting Steem",
@@ -602,11 +587,7 @@
         "empty_feed_3": "Explore Trending Articles",
         "empty_feed_4": "Read The Quick Start Guide",
         "empty_feed_5": "Browse The FAQ",
-<<<<<<< HEAD
-        "my_feed": "My Feed",
-=======
         "my_feed": "Feed",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         "accountnames_feed": "%(account_name)s's Feed"
     },
     "explorepost_jsx": {

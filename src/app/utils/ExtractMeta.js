@@ -6,26 +6,6 @@ const site_desc =
     'Communities without borders. A social network owned and operated by its users, powered by Steem.';
 
 function addSiteMeta(metas) {
-<<<<<<< HEAD
-    metas.push({ title: 'Steemit' });
-    metas.push({ name: 'description', content: site_desc });
-    metas.push({ property: 'og:type', content: 'website' });
-    metas.push({ property: 'og:site_name', content: 'Steemit' });
-    metas.push({ property: 'og:title', content: 'Steemit' });
-    metas.push({ property: 'og:description', content: site_desc });
-    metas.push({
-        property: 'og:image',
-        content: 'https://steemit.com/images/steemit.png',
-    });
-    metas.push({ property: 'fb:app_id', content: $STM_Config.fb_app });
-    metas.push({ name: 'twitter:card', content: 'summary' });
-    metas.push({ name: 'twitter:site', content: '@steemit' });
-    metas.push({ name: 'twitter:title', content: '#Steemit' });
-    metas.push({ name: 'twitter:description', site_desc });
-    metas.push({
-        name: 'twitter:image',
-        content: 'https://steemit.com/images/steemit.png',
-=======
     metas.push({ title: 'Steem Town' });
     metas.push({ name: 'description', content: site_desc });
     metas.push({ property: 'og:type', content: 'website' });
@@ -46,7 +26,6 @@ function addSiteMeta(metas) {
         name: 'twitter:image',
         content:
             'https://steem.town/images/favicons/android-chrome-512x512.png',
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     });
 }
 
@@ -55,11 +34,7 @@ function addPostMeta(metas, content, profile) {
     const { category, created, body, json_metadata } = content;
     const isReply = content.depth > 0;
 
-<<<<<<< HEAD
-    const title = content.title + ' — Steemit';
-=======
     const title = content.title + ' — Steem Town';
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     const desc = extractBodySummary(body, isReply) + ' by ' + content.author;
     const image_link = extractImageLink(json_metadata, body);
 
@@ -78,19 +53,12 @@ function addPostMeta(metas, content, profile) {
     metas.push({ name: 'og:url', content: localUrl });
     metas.push({
         name: 'og:image',
-<<<<<<< HEAD
-        content: image || 'https://steemit.com/images/steemit.png',
-    });
-    metas.push({ name: 'og:description', content: desc });
-    metas.push({ name: 'og:site_name', content: 'Steemit' });
-=======
         content:
             image ||
             'https://steem.town/images/favicons/android-chrome-512x512.png',
     });
     metas.push({ name: 'og:description', content: desc });
     metas.push({ name: 'og:site_name', content: 'Steem Town' });
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     metas.push({ name: 'fb:app_id', content: $STM_Config.fb_app });
     metas.push({ name: 'article:tag', content: category });
     metas.push({
@@ -103,11 +71,7 @@ function addPostMeta(metas, content, profile) {
         name: 'twitter:card',
         content: image ? 'summary_large_image' : 'summary',
     });
-<<<<<<< HEAD
-    metas.push({ name: 'twitter:site', content: '@steemit' });
-=======
     metas.push({ name: 'twitter:site', content: '@steemtown' });
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     metas.push({ name: 'twitter:title', content: title });
     metas.push({ name: 'twitter:description', content: desc });
     metas.push({
@@ -122,11 +86,7 @@ function addAccountMeta(metas, accountname, profile) {
     name = name || accountname;
     about = about || 'Steemit: Communities Without Borders.';
     profile_image =
-<<<<<<< HEAD
-        profile_image || 'https://steemit.com/images/steemit-twshare-2.png';
-=======
         profile_image || 'https://steem.town/images/steemit-twshare-2.png';
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 
     // Set profile tags
     const title = `@${accountname}`;
@@ -139,11 +99,7 @@ function addAccountMeta(metas, accountname, profile) {
 
     // Twitter card data
     metas.push({ name: 'twitter:card', content: 'summary' });
-<<<<<<< HEAD
-    metas.push({ name: 'twitter:site', content: '@steemit' });
-=======
     metas.push({ name: 'twitter:site', content: '@steemtown' });
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     metas.push({ name: 'twitter:title', content: title });
     metas.push({ name: 'twitter:description', content: desc });
     metas.push({ name: 'twitter:image', content: profile_image });

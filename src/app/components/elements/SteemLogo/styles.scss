@@ -1,7 +1,4 @@
 .logo {
-<<<<<<< HEAD
-    cursor: pointer;
-=======
   display:flex;
   align-items:center;
   justify-content: center;
@@ -24,7 +21,6 @@
     }
 
     
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     transition: all 0.3s ease-in-out;
     .logo__steemit{
         fill: $color-teal;
@@ -41,8 +37,6 @@
         }
     }
 }
-<<<<<<< HEAD
-=======
 
 .theme-dark {
   .logo {
@@ -56,4 +50,3 @@
     }
   }
 }
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b

@@ -23,11 +23,7 @@ ul.PostsList__summaries > li {
   &:hover {
     @include MQ(L) {
       @include themify($themes) {
-<<<<<<< HEAD
-        box-shadow: 2px 2px 3px 0 themed('contentBorderAccent');
-=======
         // box-shadow: 2px 2px 3px 0 themed('contentBorderAccent');
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
       }
     }
   }

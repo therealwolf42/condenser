@@ -3,18 +3,6 @@
 
 
 Condenser is the react.js web interface to the world's first and best
-<<<<<<< HEAD
-blockchain-based social media platform, steemit.com.  It uses
-[STEEM](https://github.com/steemit/steem), a blockchain powered by DPoS Governance and ChainBase DB to store JSON-based content for a plethora of web
-applications.
-
-## Why would I want to use Condenser (steemit.com front-end)?
-
-* Learning how to build blockchain-based web applications using STEEM as a
-  content storage mechanism in react.js
-* Reviewing the inner workings of the steemit.com social media platform
-* Assisting with software development for steemit.com
-=======
 blockchain-based social media platform, steem.town.  It uses
 [STEEM](https://github.com/SteemDevs/steem), a blockchain powered by DPoS Governance and ChainBase DB to store JSON-based content for a plethora of web
 applications.
@@ -25,18 +13,13 @@ applications.
   content storage mechanism in react.js
 * Reviewing the inner workings of the steem.town social media platform
 * Assisting with software development for steem.town
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 
 ## Installation
 
 #### Docker
 
 We highly recommend using docker to run condenser in production. This is how we run the
-<<<<<<< HEAD
-live steemit.com site and it is the most supported (and fastest) method of
-=======
 live steem.town site and it is the most supported (and fastest) method of
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 both building and running condenser. We will always have the latest version
 of condenser (master branch) available on Docker Hub. Configuration settings
 can be set using environment variables (see configuration section below for
@@ -126,11 +109,7 @@ yarn run start
 It will take quite a bit longer to start in this mode (~60s) as it needs to
 build and start the webpack-dev-server.
 
-<<<<<<< HEAD
-By default you will be connected to steemit.com's public steem node at
-=======
 By default you will be connected to steem.town's public steem node at
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 `wss://steemd.steeemit.com`. This is actually on the real blockchain and
 you would use your regular account name and credentials to login - there is
 not an official separate testnet at this time. If you intend to run a

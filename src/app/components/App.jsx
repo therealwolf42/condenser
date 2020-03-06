@@ -109,37 +109,6 @@ class App extends React.Component {
                     </div>
                 </div>
             );
-<<<<<<< HEAD
-        } else if (false && ip && this.state.showCallout) {
-            callout = (
-                <div className="App__announcement row">
-                    <div className="column">
-                        <div
-                            className={classNames(
-                                'callout success',
-                                { alert },
-                                { warning },
-                                { success }
-                            )}
-                        >
-                            <CloseButton
-                                onClick={() =>
-                                    this.setState({ showCallout: false })
-                                }
-                            />
-                            <ul>
-                                <li>
-                                    /*<a href="https://steemit.com/steemit/@steemitblog/steemit-com-is-now-open-source">
-                                        ...STORY TEXT...
-                                    </a>*/
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            );
-=======
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         }
         if ($STM_Config.read_only_mode && this.state.showCallout) {
             callout = (

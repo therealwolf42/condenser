@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-    "name": "Steemit",
-    "short_name": "Steemit",
-=======
     "name": "SteemTown",
     "short_name": "SteemTown",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "start_url": "/",

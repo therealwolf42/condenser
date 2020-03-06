@@ -32,9 +32,6 @@ function build_scheme(scheme, post) {
 
 function allowed_app(app) {
     // apps which follow (reciprocate) canonical URLs (as of 2019-10-15)
-<<<<<<< HEAD
-    const whitelist = ['steemit', 'esteem', 'steempeak', 'travelfeed'];
-=======
     const whitelist = [
         'steemtown',
         'steemit',
@@ -42,7 +39,6 @@ function allowed_app(app) {
         'steempeak',
         'travelfeed',
     ];
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     return whitelist.includes(app);
 }
 
@@ -58,10 +54,6 @@ export function makeCanonicalLink(post, metadata) {
             scheme = Apps[app] ? Apps[app].url_scheme : null;
         }
     }
-<<<<<<< HEAD
-    if (!scheme) scheme = Apps['steemit'].url_scheme;
-=======
     if (!scheme) scheme = Apps['steemtown'].url_scheme;
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     return build_scheme(scheme, post);
 }

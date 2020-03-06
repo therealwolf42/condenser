@@ -1,47 +1,5 @@
 import React from 'react';
 import tt from 'counterpart';
-<<<<<<< HEAD
-import { SIGNUP_URL } from 'shared/constants';
-
-const SidebarNewUsers = () => (
-    <div className="c-sidebar__module">
-        <div className="c-sidebar__header">
-            <h3 className="c-sidebar__h3">New to Steemit?</h3>
-        </div>
-        <div className="c-sidebar__content">
-            <ul className="c-sidebar__list">
-                <li className="c-sidebar__list-item">
-                    <a className="c-sidebar__link" href="/welcome">
-                        Welcome Guide
-                    </a>
-                </li>
-                {/*
-                <li className="c-sidebar__list-item">
-                    <a className="c-sidebar__link" href="/faq.html">
-                        FAQs
-                    </a>
-                </li>
-                <li className="c-sidebar__list-item">
-                    <a className="c-sidebar__link" href="/@steemitblog">
-                        {tt('g.read_offical_blog')}
-                    </a>
-                </li>
-                */}
-                <li className="c-sidebar__list-item">
-                    <a
-                        className="c-sidebar__link"
-                        href="https://steem.com/SteemWhitePaper.pdf"
-                    >
-                        Whitepaper
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-);
-
-export default SidebarNewUsers;
-=======
 import { connect } from 'react-redux';
 import { SIGNUP_URL } from 'shared/constants';
 import Icon from 'app/components/elements/Icon';
@@ -121,4 +79,3 @@ export default connect((state, ownProps) => {
         ...ownProps,
     };
 })(SidebarNewUsers);
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b

@@ -1160,11 +1160,7 @@ export default formId =>
                     meta.links = rtags.links; // TODO: remove? save first?
                 else delete meta.links;
 
-<<<<<<< HEAD
-                meta.app = 'steemit/0.2';
-=======
                 meta.app = 'steemtown/0.1';
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 if (isStory) {
                     meta.format = isHtml ? 'html' : 'markdown';
                 }

@@ -19,11 +19,7 @@
     "reportOnly": false,
     "setAllHeaders": true
   },
-<<<<<<< HEAD
-  "img_proxy_prefix": "https://steemitdevimages.com/",
-=======
   "img_proxy_prefix": "https://steemitimages.com/",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
   "ipfs_prefix": false,
   "mixpanel": false,
   "notify": {
@@ -37,11 +33,7 @@
   "server_session_secret": "exiKdyF+IwRIXJDmtGIl4vWUz4i3eVSISpfZoeYc0s4=",
   "session_cookie_key": "stm-dev",
   "session_key": "steemses",
-<<<<<<< HEAD
-  "site_domain": "steemitdev.com",
-=======
   "site_domain": "steem.town",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
   "upload_image": false,
   "steemd_connection_client": "https://api.steemit.com",
   "steemd_connection_server": "https://api.steemit.com",
@@ -51,11 +43,7 @@
   "conveyor_posting_wif": false,
   "conveyor_username": false,
   "special_posts_url": false,
-<<<<<<< HEAD
-  "wallet_url": "https://wallet.steemitdev.com",
-=======
   "wallet_url": "https://wallet.steem.town",
->>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
   "gpt_banned_tags": ["nsfw", "tante"],
   "google_ad_enabled": null,
   "google_ad_test": null,
