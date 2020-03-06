@@ -34,8 +34,8 @@ describe('makeCanonicalLink', () => {
             'https://steempeak.com/testing/@test/test-post',
         ],
         [
-            'handles posts from steemit',
-            { ...post_data, json_metadata: { app: 'steemit/0.1' } },
+            'handles posts from steem.town',
+            { ...post_data, json_metadata: { app: 'steemtown/0.1' } },
             'https://steem.town/testing/@test/test-post',
         ],
         [
