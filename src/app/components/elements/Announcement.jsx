@@ -4,13 +4,13 @@ import React from 'react';
 export const Announcement = ({ onClose }) => (
     <div className="annoucement-banner">
         <p className="announcement-banner__text">
-            #NewSteem is live. More{' '}
+            Steem Town is live!{' '}
             <a
                 className="announcement-banner__link"
-                href="https://steemit.com/hf22/@steemitblog/hardfork-22-live"
+                href="https://steem.town/steemtown/@therealwolf/steemtown"
             >
-                here.
-            </a>
+                Read more
+            </a>.
         </p>
         <button className="close-button" type="button" onClick={onClose}>
             &times;

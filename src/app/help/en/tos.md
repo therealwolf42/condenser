@@ -1,8 +1,8 @@
 Last Updated June 15, 2018
 
-Welcome to Steemit!  This agreement (the “Agreement”) between you and
-Steemit, Inc. (“we”, “us”, “our”) sets out your rights to access
-and use of steemit.com and any other products or services provided by us (the
+Welcome to Steem Town!  This agreement (the “Agreement”) between you and
+Steem Town (“we”, “us”, “our”) sets out your rights to access
+and use of steem.town and any other products or services provided by us (the
 “Service”). If you are accepting this Agreement and using the Services on
 behalf of a company, organization, government, or other legal entity, you
 represent and warrant that you are authorized to do so and have the authority
@@ -11,7 +11,7 @@ that you have read, understood and accepted this Agreement.
 
 If we decide to make changes to this Agreement, we will provide notice of those
 changes by updating the “Last Updated” date above or posting notice on
-steemit.com. Your continued use of the Service will confirm your acceptance of
+steem.town. Your continued use of the Service will confirm your acceptance of
 the changes.
 
 ## 1. Privacy Policy
@@ -32,14 +32,14 @@ Agreement.
 
 We may retain data, text, photographs, images, video, audio, graphics,
 articles, comments, software, code, scripts, and other content supplied by us,
-the Steem blockchain or our licensors, which we call “Steemit Content.”
-Steemit Content is protected by intellectual property laws, including copyright
+the Steem blockchain or our licensors, which we call “Steem Town Content.”
+Steem Town Content is protected by intellectual property laws, including copyright
 and other proprietary rights of the United States and foreign countries. Except
 as explicitly stated in this Agreement, we do not grant any express or implied
-rights to use Steemit Content.
+rights to use Steem Town Content.
 
 You are granted a limited, non-exclusive, non-transferable, and
-non-sublicensable license to access and use the Service and Steemit Content for
+non-sublicensable license to access and use the Service and Steem Town Content for
 your personal use. You retain ownership of and responsibility for Content you
 create or own ("Your Content"). If you're posting anything you did not create
 yourself or do not own the rights to, you agree that you are responsible for
@@ -49,17 +49,17 @@ to Content you post.
 
 ## 4. Trademark Policy
 
-“Steemit,”, the Steemit logo and any other product or service names, logos,
-slogans that may appear on the Service are trademarks of Steemit, Inc., and,
+“Steem Town,”, the Steem Town logo and any other product or service names, logos,
+slogans that may appear on the Service are trademarks of Steem Town, and,
 may not be copied, imitated, or used, in whole or in part, unless explicitly
 permitted or without first receiving written permission from us to do so.  The
-look and feel of steemit.com and the Service is protected by copyright ©
-Steemit, Inc. All rights reserved. You may not duplicate, copy, or reuse any
+look and feel of steem.town and the Service is protected by copyright ©
+Steem Town All rights reserved. You may not duplicate, copy, or reuse any
 portion of the HTML/CSS, Javascript, or visual design elements or concepts
 without express written permission.
 
 We encourage third-party dapp developers building on top of the Steem
-blockchain to reach out to legal@steemit.com for all branding and licensing
+blockchain to reach out to legal@steem.town for all branding and licensing
 questions.
 
 All other trademarks, registered trademarks, product names and company names or
@@ -117,9 +117,9 @@ personal injury caused by negligence, fraudulent misrepresentation, or any
 other liability which may not otherwise be limited or excluded under United
 States law.
 
-## 6. Agreement to Hold Steemit, Inc. Harmless
+## 6. Agreement to Hold Steem Town Harmless
 
-6.1. You agree to hold harmless Steemit, Inc. (and each of our officers,
+6.1. You agree to hold harmless Steem Town (and each of our officers,
 directors, members, employees, agents, and affiliates) from any claim, demand,
 action, damage, loss, cost, or expense, including without limitation reasonable
 legal fees, arising out, or relating to:
@@ -168,7 +168,7 @@ or unauthorized access to your Account, to the maximum extent permitted by law.
 Advances in code cracking or technical advances such as the development of
 quantum computers may present risks to the Services that you use and your
 Account, which could result in the theft or loss of your property. By using the
-Service or accessing Steemit Content, you acknowledge these inherent risks.
+Service or accessing Steem Town Content, you acknowledge these inherent risks.
 
 ## 9. The Services
 
@@ -276,7 +276,7 @@ or deprecate the Services.
 
 13.1. We may suspend or terminate your access to the Services in our sole
 discretion, immediately and without prior notice, and delete or deactivate your
-steemit.com account and all related information and files in such without cost
+steem.town account and all related information and files in such without cost
 to you, including, for instance, if you breach any term of this Agreement. In
 the event of termination, your access to the funds in your account will require
 you access to the Steem blockchain via the command line API or third party
@@ -318,7 +318,7 @@ Copyright Act ("DMCA"), and we retain the right to remove access to user
 content provided via the Service that we deem to be infringing the copyright of
 others. If you become aware of user content on the Service that infringes your
 copyright rights, you may submit a properly formatted DMCA request (see 17
-U.S.C. § 512) to Steemit, Inc.
+U.S.C. § 512) to Steem Town
 
 Misrepresentations of infringement can result in liability for monetary
 damages. You may want to consult an attorney before taking any action pursuant
@@ -326,13 +326,9 @@ to the DMCA. A DMCA request can be sent to us via the contact information below:
 
 Copyright Agent
 
-Steemit, Inc.
+Steem Town
 
-251 LITTLE FALLS DRIVE
-
-WILMINGTON, DE 19808
-
-copyright@steemit.com
+copyright@steem.town
 
 Please send our Copyright Agent the following information:
 
@@ -405,32 +401,31 @@ and/or your violation of the rights of any third-party or person.
 
 ## 17. Disclaimers
 
-To the fullest extent permitted by applicable law, the Service and the Steemit
+To the fullest extent permitted by applicable law, the Service and the Steem Town
 Content are provided on an “as is” and “as available” basis, without
 warranties of any kind, either express or implied, including, without
 limitation, implied warranties of merchantability, fitness for a particular
 purpose, title and non-infringement and any warranties implied by any course of
 performance or usage of trade. The company does not represent or warrant that
-the Service and the Steemit Content: (a) will be secure or available at any
+the Service and the Steem Town Content: (a) will be secure or available at any
 time or location; (b) are accurate, complete, reliable, current, or error-free
 or that any defects or errors will be corrected; and (c) are free of viruses or
-other harmful components. Your use of the Service and Steemit Content is solely
+other harmful components. Your use of the Service and Steem Town Content is solely
 at your own risk. Some jurisdictions do not allow the disclaimer of implied
 terms in contracts with consumers, so some or all of the disclaimers in this
 Section may not apply to you.
 
 ## 18. Limitation of liability
 
-To the fullest extent permitted by applicable law, in no event shall Steemit,
-Inc. or the any related party to Steemit, Inc., that includes but is not
+To the fullest extent permitted by applicable law, in no event shall Steem Town or the any related party to Steem Town, that includes but is not
 limited to, subsidiaries, vendors, or contractors, be liable for any special,
 indirect, incidental, consequential, exemplary or punitive damages, or any
 other damages of any kind, including, but not limited to, loss of use, loss of
 profits or loss of data, whether in an action in contract, tort (including, but
 not limited to, negligence) or otherwise, arising out of, or in any way
-connected with, the use of, or inability to use, the Service or the Steemit
+connected with, the use of, or inability to use, the Service or the Steem Town
 Content. To the fullest extent permitted by applicable law, in no event shall
-the aggregate liability of Steemit, Inc. or any related party, whether in
+the aggregate liability of Steem Town or any related party, whether in
 contract, warranty, tort (including negligence, whether active, passive or
 imputed), product liability, strict liability or other theory, arising out of
 or relating to the use of or inability to use of the Service
@@ -449,29 +444,29 @@ discontinuance of the Service.
 ## 20. Arbitration
 
 Please read the following section carefully because it requires you to
-arbitrate certain disputes with Steemit, Inc. and limits the way you can seek
-relief from Steemit, Inc. If you do not agree with this Section 20, please
+arbitrate certain disputes with Steem Town and limits the way you can seek
+relief from Steem Town If you do not agree with this Section 20, please
 discontinue using the Service.
 
 20.1. Binding Arbitration. Except for disputes in which either party seeks to
 bring an individual action in small claims court or seeks injunctive or other
 equitable relief for the alleged unlawful use of copyrights, trademarks, trade
-names, logos, trade secrets or patents, you and Steemit, Inc.: (a) waive your
+names, logos, trade secrets or patents, you and Steem Town: (a) waive your
 right to have any and all disputes or Claims arising from this Agreement or
-Steemit, Inc. (collectively, “Disputes”) resolved in a court; and (b) waive
-your right to a jury trial. Instead, you and Steemit, Inc. will arbitrate
+Steem Town (collectively, “Disputes”) resolved in a court; and (b) waive
+your right to a jury trial. Instead, you and Steem Town will arbitrate
 Disputes through binding arbitration (which is the referral of a Dispute to one
 or more persons charged with reviewing the Dispute and making a final and
 binding determination to resolve it, instead of having the Dispute decided by a
 judge or jury in court).
 
 20.2. No Class Arbitrations, Class Actions or Representative Actions. You agree
-that any dispute is personal to you and Steemit, Inc. and that any such dispute
+that any dispute is personal to you and Steem Town and that any such dispute
 will be resolved solely through individual arbitration and will not be brought
 as a class arbitration, class action or any other type of representative
 proceeding. Neither party agrees to class arbitration or to an arbitration in
 which an individual makes and attempt to resolve a dispute as a representative
-of another individual or group of individuals. Further, you and Steemit, Inc.
+of another individual or group of individuals. Further, you and Steem Town
 agree that a dispute cannot be brought as a class, or other type of
 representative action, whether within or outside of arbitration, or on behalf
 of any other individual or group of individuals.
@@ -485,11 +480,11 @@ permitted by applicable law.
 20.4. Process. You agree that you will notify us in writing of any Dispute
 within thirty (30) days of when it arises so that the parties can attempt, in
 good faith, to resolve the Dispute informally. Notice to the us shall be
-provided by sending an email to legal@steemit.com. Your notice must include:
+provided by sending an email to legal@steem.town. Your notice must include:
 (1) your name, postal address, and email address; (2) a description of the
 nature or basis of the Dispute; and (3) the specific relief that you are
 seeking. If we cannot agree how to resolve the Dispute within thirty (30) days
-of the us receiving the notice, either you or Steemit, Inc. may, as appropriate
+of the us receiving the notice, either you or Steem Town may, as appropriate
 pursuant to this Section 20, commence an arbitration proceeding or file a claim
 in court. You agree that any arbitration or claim against us must be commenced
 or filed within one (1) year after the Dispute arose; otherwise, you agree that
@@ -529,7 +524,7 @@ enforceable, except as prohibited by applicable law.
 
 ## 21. Applicable Law and Venue
 
-This Agreement and your access to and use of the Service and the Steemit
+This Agreement and your access to and use of the Service and the Steem Town
 Content will be governed by, and construed in accordance with, the laws of New
 York, without resort to its conflict of law provisions. To the extent the
 arbitration provision in Section 20 does not apply and the Dispute cannot be
@@ -543,7 +538,7 @@ this Agreement.
 ## 22. Termination
 
 We reserve the right, without notice and in our sole discretion, to terminate
-your license to access and use of the Service, which includes, steemit.com, and
+your license to access and use of the Service, which includes, steem.town, and
 to block or prevent your future access to, and use of, the Service that we
 provide.
 
@@ -560,11 +555,11 @@ This Agreement is the entire agreement between you and us concerning the
 Service. It supersedes all prior or contemporaneous agreements between you and
 us. We may modify this user agreement at any time. If we make changes to this
 agreement that materially affect your rights, we will provide notice and keep
-this edition available as an archive on steemit.com. By continuing to use the
+this edition available as an archive on steem.town. By continuing to use the
 Services after a change to this agreement, you agree to those changes.
 
 ## 25. Contact Information
 
-Notices to Steemit, Inc. should be directed to legal@steemit.com.
+Notices to Steem Town should be directed to legal@steem.town.
 
 

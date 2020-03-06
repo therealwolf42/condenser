@@ -219,7 +219,7 @@ export default class PdfDownload extends Component {
             ctx,
             'Generated at ' +
                 new Date().toISOString().replace(/\.\d{3}/, '') +
-                ' by steemit.com',
+                ' by steem.town',
             {
                 scale,
                 x: margin,
@@ -327,7 +327,7 @@ export default class PdfDownload extends Component {
 
         offset += this.renderText(
             ctx,
-            'Used to log in to apps such as Steemit.com and perform social ' +
+            'Used to log in to apps such as steem.town and perform social ' +
                 'actions such as posting, commenting, and voting.',
             {
                 scale,
@@ -519,7 +519,7 @@ export default class PdfDownload extends Component {
             'This key is used to reset all your other keys. It is ' +
                 'recommended to keep it offline at all times. If your ' +
                 'account is compromised, use this key to recover it ' +
-                'within 30 days at https://steemitwallet.com.',
+                'within 30 days at https://wallet.steem.town',
             {
                 scale,
                 x: margin + qrSize + 0.1,

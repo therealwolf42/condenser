@@ -12,9 +12,6 @@ import Modals from 'app/components/modules/Modals';
 import WelcomePanel from 'app/components/elements/WelcomePanel';
 import tt from 'counterpart';
 import PageViewsCounter from 'app/components/elements/PageViewsCounter';
-import { serverApiRecordEvent } from 'app/utils/ServerApiClient';
-import { key_utils } from '@steemit/steem-js/lib/auth/ecc';
-import resolveRoute from 'app/ResolveRoute';
 import { VIEW_MODE_WHISTLE } from 'shared/constants';
 
 class App extends React.Component {
@@ -108,34 +105,6 @@ class App extends React.Component {
                                 }
                             />
                             <p>{alert}</p>
-                        </div>
-                    </div>
-                </div>
-            );
-        } else if (false && ip && this.state.showCallout) {
-            callout = (
-                <div className="App__announcement row">
-                    <div className="column">
-                        <div
-                            className={classNames(
-                                'callout success',
-                                { alert },
-                                { warning },
-                                { success }
-                            )}
-                        >
-                            <CloseButton
-                                onClick={() =>
-                                    this.setState({ showCallout: false })
-                                }
-                            />
-                            <ul>
-                                <li>
-                                    /*<a href="https://steemit.com/steemit/@steemitblog/steemit-com-is-now-open-source">
-                                        ...STORY TEXT...
-                                    </a>*/
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
