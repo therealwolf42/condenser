@@ -4,7 +4,11 @@
   left: 0;
   width: 100%;
   z-index: 100;
+<<<<<<< HEAD
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+=======
+  // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
   @include themify($themes) {
     background-color: themed('navBackgroundColor');
     border-bottom: themed('border');
@@ -25,7 +29,11 @@
 
 .Header__logotype {
   transition: 0.2s all ease-in-out;
+<<<<<<< HEAD
   height: 37px;
+=======
+  height: 46px;
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
   display: flex;
   align-items: baseline;
   .icon-svg {
@@ -47,6 +55,10 @@
 }
 
 .Header__search {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     @include MQ(L) {
         display: none;
     }
@@ -55,6 +67,10 @@
         @include MQ(L) {
             display: block;
         }
+<<<<<<< HEAD
+=======
+        margin-right: 15px;
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     }
 }
 

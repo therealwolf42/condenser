@@ -109,6 +109,7 @@ class App extends React.Component {
                     </div>
                 </div>
             );
+<<<<<<< HEAD
         } else if (false && ip && this.state.showCallout) {
             callout = (
                 <div className="App__announcement row">
@@ -137,6 +138,8 @@ class App extends React.Component {
                     </div>
                 </div>
             );
+=======
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         }
         if ($STM_Config.read_only_mode && this.state.showCallout) {
             callout = (

@@ -141,7 +141,11 @@ class PostsIndex extends React.Component {
         let page_title = tt('g.all_tags');
         if (order === 'feed') {
             if (account_name === this.props.username)
+<<<<<<< HEAD
                 page_title = 'My friends' || tt('posts_index.my_feed');
+=======
+                page_title = 'Feed' || tt('posts_index.my_feed');
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
             else
                 //page_title = tt('posts_index.accountnames_feed', {
                 //    account_name,
@@ -149,7 +153,11 @@ class PostsIndex extends React.Component {
                 //page_title = '@' + account_name + "'s friends"
                 page_title = 'My friends';
         } else if (category === 'my') {
+<<<<<<< HEAD
             page_title = 'My communities';
+=======
+            page_title = 'Communities Feed';
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
         } else if (community) {
             page_title = community.get('title');
         } else if (category) {

@@ -33,6 +33,7 @@ class Topics extends Component {
                 if (tag && tag[0] === '@')
                     return {
                         value: `/@${username}/feed`,
+<<<<<<< HEAD
                         label: 'My friends' || `tt('g.my_feed')`,
                     };
                 if (tag === 'my')
@@ -41,6 +42,16 @@ class Topics extends Component {
                     return {
                         value: `/communities`,
                         label: 'Explore Communities...',
+=======
+                        label: 'Feed' || `tt('g.my_feed')`,
+                    };
+                if (tag === 'my')
+                    return { value: `/trending/my`, label: 'Communities Feed' };
+                if (tag == 'explore')
+                    return {
+                        value: `/communities`,
+                        label: 'Explore Communities',
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                     };
                 if (tag)
                     return {
@@ -111,10 +122,17 @@ class Topics extends Component {
             </div>
         );
 
+<<<<<<< HEAD
         const moreLabel = <span>{tt('g.show_more_topics')}&hellip;</span>;
         const title =
             subscriptions && username
                 ? 'My subscriptions'
+=======
+        const moreLabel = <span>{tt('g.show_more_topics')}</span>;
+        const title =
+            subscriptions && username
+                ? 'Subscriptions'
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 : 'Trending Communities';
         const commsHead = (
             <div style={{ color: '#aaa', paddingTop: '0em' }}>{title}</div>
@@ -122,10 +140,17 @@ class Topics extends Component {
         const list = (
             <ul className="c-sidebar__list">
                 <li>{link('/', tt('g.all_tags'))}</li>
+<<<<<<< HEAD
                 {username && (
                     <li>{link(`/@${username}/feed`, 'My friends')}</li>
                 )}
                 {username && <li>{link(`/trending/my`, 'My communities')}</li>}
+=======
+                {username && <li>{link(`/@${username}/feed`, 'Feed')}</li>}
+                {username && (
+                    <li>{link(`/trending/my`, 'Communities Feed')}</li>
+                )}
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                 {(subscriptions || topics).size > 0 && <li>{commsHead}</li>}
                 {username &&
                     subscriptions &&

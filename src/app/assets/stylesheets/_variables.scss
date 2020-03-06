@@ -8,28 +8,53 @@ $color-blue-original-dark: #1A5099;
 $color-blue-original-light: #4BA2F2;
 $color-blue-black: #171F24;
 $color-blue-black-darkest: #11161A;
+<<<<<<< HEAD
 $color-blue-dark: #2C3A45;
 $color-teal: #06D6A9;
 $color-teal-light:#00FFC8;
 $color-teal-dark:#049173;
+=======
+$color-blue-dark: rgb(17, 23, 27);
+$color-teal: #03a2ff;
+$color-teal-light:#0ea7ff;
+$color-teal-dark:#0599ee;
+
+/*
+$color-teal: rgb(6, 89, 214);
+$color-teal-light:rgb(11, 98, 228);
+$color-teal-dark:rgb(5, 83, 201);
+*/
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 
 $color-yellow: #fce76c;
 $color-orange: #F76900;
 $color-transparent: transparent;
 
 $color-background-almost-white:#fefefe;
+<<<<<<< HEAD
 $color-background-off-white: #f4f4f4;
 $color-background-off-white-light: #fafafa;
 $color-background-dark: #1C252B;
 $color-background-less-dark: #283336;
 $color-background-super-dark: #10151b;
+=======
+$color-background-off-white: #f1f5fa;
+$color-background-off-white-light: #fafafa;
+$color-background-dark: #252b36;
+$color-background-less-dark: #2d323b;
+$color-background-super-dark: rgb(18, 25, 32);
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 
 $color-text-dark: #333;
 $color-text-white: #fcfcfc;
 $color-text-blue: #004EFF;
 $color-text-gray: #788187;
 $color-text-gray-light: #A6B2BA;
+<<<<<<< HEAD
 $color-text-teal: #1FBF8F;
+=======
+$color-text-teal: $color-teal;
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 $color-text-red: $color-red;
 
 $color-border-light: #eee;

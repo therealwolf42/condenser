@@ -163,7 +163,11 @@ class Header extends React.Component {
                         [topic, 'title'],
                         '#' + topic
                     );
+<<<<<<< HEAD
                     if (name == '#my') name = 'My Communities';
+=======
+                    if (name == '#my') name = 'Communities Feed';
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                     page_title = `${name} / ${page_title}`;
                 } else {
                     page_title += ' posts';
@@ -345,6 +349,18 @@ class Header extends React.Component {
                             </div>
 
                             <div className="small-6 medium-8 large-7 columns Header__buttons">
+<<<<<<< HEAD
+=======
+                                {/*CUSTOM SEARCH*/}
+                                <span className="Header__search--desktop">
+                                    <ElasticSearchInput redirect />
+                                </span>
+                                <span className="Header__search">
+                                    <a href="/search">
+                                        <IconButton icon="magnifyingGlass" />
+                                    </a>
+                                </span>
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                                 {/*NOT LOGGED IN SIGN IN AND SIGN UP LINKS*/}
                                 {!loggedIn && (
                                     <span className="Header__user-signup show-for-medium">
@@ -364,6 +380,7 @@ class Header extends React.Component {
                                     </span>
                                 )}
 
+<<<<<<< HEAD
                                 {/*CUSTOM SEARCH*/}
                                 <span className="Header__search--desktop">
                                     <ElasticSearchInput redirect />
@@ -376,6 +393,10 @@ class Header extends React.Component {
 
                                 {/*SUBMIT STORY*/}
                                 {submit_story}
+=======
+                                {/*SUBMIT STORY*/}
+                                {loggedIn && submit_story}
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
                                 {/*USER AVATAR */}
                                 {loggedIn && (
                                     <DropdownMenu

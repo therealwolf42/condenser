@@ -1,5 +1,30 @@
 .logo {
+<<<<<<< HEAD
     cursor: pointer;
+=======
+  display:flex;
+  align-items:center;
+  justify-content: center;
+    cursor: pointer;
+    &__icon {
+      height:25px;
+      width: 25px;
+      margin-right:8px;
+      fill: $color-teal;
+    }
+
+    &__text {
+      font-size:1.8rem;
+      font-weight:700;
+    }
+
+    &__textSmall {
+      font-size: 1.8rem;
+      font-weight:300;
+    }
+
+    
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
     transition: all 0.3s ease-in-out;
     .logo__steemit{
         fill: $color-teal;
@@ -16,3 +41,19 @@
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+.theme-dark {
+  .logo {
+    &__icon {
+      fill: white;
+    }
+
+    &__text,
+    &__textSmall {
+      color: white;
+    }
+  }
+}
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b

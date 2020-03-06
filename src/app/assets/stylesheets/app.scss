@@ -19,6 +19,13 @@
 @import "./markdown";
 @import "src/app/components/all";
 
+<<<<<<< HEAD
+=======
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+  box-shadow: none;
+}
+
+>>>>>>> 1bc71ede40cbd3af6dd3c52b00dfd57e7324901b
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   body {
